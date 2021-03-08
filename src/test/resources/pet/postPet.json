@@ -1,0 +1,17 @@
+{
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "testMentoring2121",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
