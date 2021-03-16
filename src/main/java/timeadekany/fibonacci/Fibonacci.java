@@ -20,8 +20,8 @@ public class Fibonacci {
         try {
             for (int i = 0; i < number - 2; i++) {
                 sum = Math.addExact(firstNumber, secondNumber);
-                secondNumber = firstNumber;
-                firstNumber = sum;
+                firstNumber = secondNumber;
+                secondNumber = sum;
             }
         } catch (ArithmeticException e) {
             System.out.println("Overflow happened");
